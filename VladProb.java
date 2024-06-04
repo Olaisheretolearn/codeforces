@@ -24,7 +24,7 @@ public class VladProb {
                 int currentFreq = freqMap.getOrDefault(c, 0);
                 if (currentFreq < rounds) {
                     totalDeficit += (rounds - currentFreq);
-                }
+                }  
             }
 
             System.out.println(totalDeficit);
